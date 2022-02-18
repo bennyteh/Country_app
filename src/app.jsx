@@ -4,7 +4,7 @@ import {ThemeProvider}  from "styled-components";
 import Contentwrap from "./Contentwrap"
 import GlobalStyle from "./GlobalStyle";
 import styled from "styled-components";
-import { Route, Switch, useHistory } from "react-router";
+import { Route, Switch } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import CountryDetail from "./CountryDetail";
 

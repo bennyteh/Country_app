@@ -71,6 +71,7 @@ function Contentwrap() {
                                 }else if (item.name.official.toLowerCase().includes(searchTerm.toLocaleLowerCase())){
                                     return item
                                 }
+                                return 0
                             }).map((item) => {
                                 return <Card
                                     key = {item.cca2 + " key"} 

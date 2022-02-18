@@ -70,7 +70,7 @@ function CountryDetail({match}) {
             setLoading(false)
         }
         fetchData()
-    },[])
+    },[match.params.name])
 
    
 
